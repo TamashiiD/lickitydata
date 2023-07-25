@@ -62,7 +62,7 @@ const handleclick = () => {
 
   return (
     <div className="App">
-      <div>What People Are Saying:</div>
+      <div>Dirty Little Secrets:</div>
       <button onClick={handleclick}>Scroll to Latest</button>
       <div id='chatboarder' className="bodybox scroll">
         <div >
@@ -77,7 +77,7 @@ const handleclick = () => {
       </div>
       <form onSubmit={handleSubmit}>
         <div className="form">
-        <label>I've been holding back! What I really wanna say is...&nbsp;</label>
+        <label>Tell All...&nbsp;</label>
         <input
           type="text" name="chat" id="chatbox" value={placeholder} onChange={handleChange} />
         <Badge
