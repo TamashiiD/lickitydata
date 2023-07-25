@@ -87,7 +87,7 @@ const handleclick = () => {
         </Badge>
         <button
           disabled={button}>
-          Share and then Zip It.
+          Share.
         </button>
         </div>
       </form>
