@@ -27,6 +27,7 @@ body {
   margin-left: 10px;
   display: flex;
   place-items: center;
+  flex-direction: column;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -174,10 +175,6 @@ button:focus-visible {
     }
     .dateandtime{
       font-size: 10px;
-    }
-
-    #root{
-
     }
   
   }
